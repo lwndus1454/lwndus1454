@@ -4,18 +4,77 @@
     <meta charset="utf-8">
     <title>쭈의 일상</title>
 
-  <link rel="stylesheet" href="mycss.css">
+    <style>
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      border-bottom: 3px solid black;
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+    }
+    #h12{
+      font-size: 50px;
+    }
+      ol {
+        border-right: 3px solid black;
+        margin: 0;
+        display: block;
+        width: 100px;
+        padding: 20px;
+      }
+      #aaa{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    }
+    #aaa ol{
+    padding-left: 33px;
+    }
+    #aaa #bbb{
+      padding-left: 25px;
+    }
+      a{
+        color: black;
+        text-decoration: none;
+        font-size: 27px;
+      }
+
+      h2 {
+        color: lightcoral;
+      }
+
+
+    @media (max-width: 600px) {
+     #aaa{
+       display: block;
+     }
+     #bbb{
+       border: none;
+     }
+     h1{
+       border-bottom: none;
+     }
+    }
+
+    </style>
+
   </head>
   <body>
-    <h1><a href="0.html">내가 좋아하는 것들</a></h1>
+    <h1><a href="0.html" id="h12">내가 좋아하는 것들</a></h1>
 
+<div id="aaa">
     <ol>
       <li><a href="1.html">옴팡이</a></li>
       <li><a href="2.html">노래</a></li>
       <li><a href="3.html">여행</a></li>
     </ol>
+
+    <div id="bbb">
     <h2>쭈의 홈페이지</h2>
     <p>안녕하세요 이주연 홈페이지 입니다.</p>
     <p>재밌게 놀다가세요 ^^@</p>
+
+  </div>
+</div>
     </body>
+
 </html>
