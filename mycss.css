@@ -1,4 +1,3 @@
-<style>
 h1 {
   text-align: center;
   font-size: 50px;
@@ -10,11 +9,14 @@ h1 {
   font-size: 50px;
 }
   ol {
+    text-align: center;
     border-right: 3px solid black;
     margin: 0;
     display: block;
     width: 100px;
     padding: 20px;
+    color: lightcoral;
+    font-size: 27px;
   }
   #aaa{
 display: grid;
@@ -22,12 +24,13 @@ grid-template-columns: 150px 1fr;
 }
 #aaa ol{
 padding-left: 33px;
+
 }
 #aaa #bbb{
   padding-left: 25px;
 }
   a{
-    color: black;
+    color: lightcoral;
     text-decoration: none;
     font-size: 27px;
   }
@@ -36,17 +39,24 @@ padding-left: 33px;
     color: lightcoral;
   }
 
-
-@media (max-width: 600px) {
- #aaa{
-   display: block;
- }
- #bbb{
-   border: none;
- }
- h1{
-   border-bottom: none;
- }
+table {
+  border: 2px solid black;
 }
+td {
+    border: 1px solid black;
+  }
 
-</style>
+  @media (max-width: 600px) {
+   #aaa{
+     display: block;
+   }
+   #bbb{
+     border: none;
+   }
+   h1{
+     border-bottom: none;
+   }
+   ol {
+     border: none;
+   }
+  }
