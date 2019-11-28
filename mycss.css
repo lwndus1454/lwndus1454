@@ -7,6 +7,7 @@ h1 {
 }
 #h12{
   font-size: 50px;
+  color: #66A0D5;
 }
   ol {
     text-align: center;
@@ -15,7 +16,7 @@ h1 {
     display: block;
     width: 100px;
     padding: 20px;
-    color: lightcoral;
+    color: #EB6262;
     font-size: 27px;
   }
   #aaa{
@@ -30,13 +31,14 @@ padding-left: 33px;
   padding-left: 25px;
 }
   a{
-    color: lightcoral;
+    color: #EB6262;
     text-decoration: none;
     font-size: 27px;
   }
 
   h2 {
-    color: lightcoral;
+    color: black;
+    font-size: 35px;
   }
 
   table {
@@ -55,10 +57,12 @@ padding-left: 33px;
     td {
       background-color: #e3f2fd;
     }
+    body {
+      background-color: white;
+    }
 
 
-
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
    #aaa{
      display: block;
    }
@@ -67,8 +71,13 @@ padding-left: 33px;
    }
    h1{
      border-bottom: none;
+     font-size: 10px;
    }
    ol {
      border: none;
+     text-align: center;
+   }
+   #aaa ol{
+     text-align: center;
    }
   }
